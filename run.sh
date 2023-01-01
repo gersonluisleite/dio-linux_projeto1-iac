@@ -91,5 +91,3 @@ do
     chown root:${groups[folder]} ${folders[folder]} && echo "-- Alterado GRUPO da pasta ${folders[folder]} para ${groups[folder]}"
     echo ""
 done
-
-# rm -rf publico/ adm/ ven/ sec/ && groupdel -f GRP_ADM && groupdel -f GRP_VEN && groupdel -f GRP_SEC && userdel -rf carlos && userdel -rf maria && userdel -rf joao && userdel -rf debora && userdel -rf sebastiana && userdel -rf roberto && userdel -rf josefina && userdel -rf amanda && userdel -rf rogerio
